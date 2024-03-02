@@ -1,5 +1,5 @@
-# build beyond boundaries /, general category
+# build beyond boundaries / general category
 
 ## navigation categories
 * [home](/)
-* [general](/general/)
+* [how to use the camera](/general/camera)
