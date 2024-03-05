@@ -1,10 +1,5 @@
 # the camera
 
-## navigation categories
-* [home](/)
-* [general](/general/)
-
-# the camera.
 The camera allows you to see what's around you in the game. It can be useful for looking for edges of platforms, above or below you, and locating a multitude of other things. Here's how it works.
 
 to use the camera, you must be holding the g key.
