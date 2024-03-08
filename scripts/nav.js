@@ -56,7 +56,7 @@ document.body.appendChild(navigationElement);
 
 // Define pages array
 var pages = [
-{ name: "Home", url: "" + ptype + "://" + window.location.hostname + "/", accesskey: "h" }
+{ name: "Home", url: "" + ptype + "://" + domain + "/", accesskey: "h" }
 ];
 
 // Get the current URL
