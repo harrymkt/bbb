@@ -2,6 +2,7 @@
 
 # navigation categories
 * [general](general)
+* [shortcuts](shortcuts)
 * [builder building objects](builder)
 
 # description
