@@ -33,7 +33,7 @@ var fd=document.createElement("div");
 // Create individual paragraphs with links
 var aboutLink = document.createElement("p");
 var contactLink = document.createElement("p");
-//var communityPolicyLink = document.createElement("p");
+
 var privacyPolicyLink = document.createElement("p");
 
 // Create anchor elements and set their attributes
@@ -51,11 +51,16 @@ var privacyPolicyAnchor = document.createElement("a");
 privacyPolicyAnchor.href = ptype + "://" + domain + "/privacy";
 privacyPolicyAnchor.textContent = "privacy policy";
 privacyPolicyLink.appendChild(privacyPolicyAnchor);
-
+var dochelp = document.createElement("p");
+var dochelpAnchor = document.createElement("a");
+dochelpAnchor.href = ptype + "://" + domain + "/dochelp";
+dochelpAnchor.textContent = "How to contribute to bbb's documentation";
+dochelp.appendChild(dochelpAnchor);
 // Append paragraphs to the existing "fd" container
 fd.appendChild(aboutLink);
 fd.appendChild(contactLink);
 fd.appendChild(privacyPolicyLink);
+fd.appendChild(dochelp);
 document.body.appendChild(fd);
 // Create a footer element
 var footerElement = document.createElement("footer");

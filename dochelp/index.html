@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="harry min khant">
+<meta name="keywords" content="harry, min, khant, blind, social, visually impaired, computer, pc, mobile, android">
+<link href="/bbb/css/style.css" rel="stylesheet" type="text/css">
+<script src="/bbb/scripts/functions.js"></script>
+<script src="/bbb/scripts/all.js"></script>
+<script src="/bbb/scripts/nav.js"></script>
+<script src="/bbb/scripts/footer.js"></script>
+<script>sett("How to contribute into bbb's documentation");</script>
+</head>
+<body>
+<script>navstart();</script>
+
+<h1 id="mainc">Contributing to the documentation</h1>
+<p>This is the help file to let you know how you could contribute to BBB's documentation. To contribute, you will need to understand how the documentation is processed in order to ensure readability, stability, and accuracy.</p>
+<h2>Syntax</h2>
+<p>All of the documentation is written using a special syntax called <b>Markdown</b>(.md extention). These Markdown files are then converted into a readable HTML format for display in the browser.
+
+<h2>folder and file structure</h2>
+<p>each document is created in each folder. for example, a folder for <b>camera</b>. in the folder, we'll next create index.md. index.md is necessary in each folders you create.</p>
+
+<h2>start</h2>
+<p>make sure to clone the repository on your local device.</p>
+<p>first of all, look in the docs folders to know how the directories are structured. only then will you be able to design your documents.</p>
+<p>next, create your document files with <b>.md</b> extention.</p>
+<h3>title</h3>
+<p>the title of the document is used by a first level heading at the top of the file.</p>
+<pre>
+# this is the title
+
+</pre>
+<br>
+<p>the title is simply a first level heading. the top first level heading will be rendered as title of the document.</p>
+
+<h3>heading</h3>
+<p>headings are a way to help organize your documentation for readability. a heading is used by a hash character followed by a space(<code>#</code>). the hash character can be added depending on which level of the heading you want. there are 6 available levels. example</p>
+<pre>
+# heading 1
+## heading level 2.
+#### heading level4.
+</pre>
+<br>
+<p>as you can see, the heading helps organizing your documentation, also offering accessibility for the visually impaired or using keyboard shortcuts.</p>
+
+<h3>code</h3>
+<p>a code is a block that highlights the code syntax, probably used to show a simple codes. a code is used by grave character (<code>`</code>). the grave character is located to the left of number 1 in most keyboards.</p>
+<p>example</p><br>
+<pre>
+# title test
+
+use the command `/help` to game help menu
+
+</pre>
+<br>
+<p>as you can see, the <code>/help</code> is highlighted as a code</p>
+
+<h3>Paragraph</h3>
+<p>a paragraph is used by adding 1 line break. consider the following example</p>
+<br>
+<pre>
+this is the first paragraph
+
+this is another paragraph
+
+</pre>
+<br>
+
+<h3>links</h3>
+<p>you can add links to files or external URLS by surrounding text with left and right bracket, and link with params. consider the following example</p>
+<br>
+<pre>
+[go to website](https://website.com)
+
+[go to file](file.extention)
+
+[go to the file that is 1 directory upward](../file.extention)
+
+[go to the file from root](/file.extention)
+
+</pre>
+
+
+<h2>congratulations!</h2>
+<p>thank you for reading all of the help for contributing to documentations. we will cover some fully written examples below.</p>
+<br>
+<h3>example 1</h3>
+<br>
+<p>
+<pre>
+# camera
+
+the camera is an useful thing to navigate and locate the hazards.
+
+</pre>
+</p>
+<h3>example 2, using 2 files.</h3>
+<p>create a new folder called test1 and add index.md into it.</p>
+<br>
+<p>index.md
+<pre>
+# index category
+* [go to test 1 category](test1)
+</pre>
+<br>
+</p>
+<br>
+<p>test1/index.md
+<pre>
+# test1 in index.
+
+this is test1 file, documentation
+
+</pre>
+<br>
+</p>
+
+<script>addfooter();</script>
+</body>
+</html>
