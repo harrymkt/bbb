@@ -30,7 +30,6 @@
 <p>the title of the document is used by a first level heading at the top of the file.</p>
 <pre>
 # this is the title
-
 </pre>
 <br>
 <p>the title is simply a first level heading. the top first level heading will be rendered as title of the document.</p>
@@ -47,7 +46,7 @@
 
 <h3>code</h3>
 <p>a code is a block that highlights the code syntax, probably used to show a simple codes. a code is used by grave character (<code>`</code>). the grave character is located to the left of number 1 in most keyboards.</p>
-<p>example</p><br>
+<p>example</p>
 <pre>
 # title test
 
@@ -57,14 +56,39 @@ use the command `/help` to game help menu
 <br>
 <p>as you can see, the <code>/help</code> is highlighted as a code</p>
 
+<h3>code block, multi</h3>
+<p>sometimes, you may want to show a block of codes with multiple lines. as such time, you can use the syntax below.</p>
+<p>the code block is seperated by 3 backticks (<code>```</code>). you may also need to close again. consider the following example</p><br>
+<pre>
+# title test
+
+declare y and assign 3-1 to it.
+
+```
+y=0
+y=3-1;
+print(y)
+```
+</pre>
+<p>you can also add the language name after opening the backticks.</p>
+<br>
+<pre>
+# title test
+
+declare x and add 3+2 in python.
+
+```python
+x=3+2
+print(x)
+```
+</pre>
 <h3>Paragraph</h3>
 <p>a paragraph is used by adding 1 line break. consider the following example</p>
-<br>
+
 <pre>
 this is the first paragraph
 
 this is another paragraph
-
 </pre>
 <br>
 
