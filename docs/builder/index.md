@@ -1,43 +1,31 @@
 # build beyond boundaries / builder category
 
+# map
+* [creating a new map](newmap)
 
+# builder objects
+* [tile](tile)
+* [wall](wall)
 
 # introduction to builder
 
 welcome to the building guide!
 
-first thing first, you have to create a new map.
+this guide's purpose is to be able to add map objects through the raw data, not from the builder menu. since builder menu is promted by virtual form dialogs, you won't have any problem. however, working with raw data, specificly on your favorite text editor, is required that you learn the syntax of the  object you want to build.
 
-you need mapname, minX, maxX, minY, maxY, minZ, maxZ, and platform_type to do so.
+every parse is seperated by a colon character (`:`) in the raw data. even though after you build through the builder menu, you will see the syntaxes on the lines of the map data and therefore it is also possible for you to be learned the objects that are or are not documented within the documentations.
 
-you need certain coins in order to make a new map. calculation is done via the form below.
+remember the following:
+* The **minX** (minimum x) is the leftmost x of what you are building.
+* The **maxX** (maximum x) is the rightmost x of what you are building.
+* The **minY** (minimum y) is the bottom most y of what you are building.
+* The **maxY** (maximum y) is the bottom most y of what you are building.
+* The **minZ** (minimum z) is the minimum height of what you are building.
+* The **maxZ** (maximum z) is the maximum height of what you are building.
 
-take the total of max x, max y, and max z of the map, then divide it with 1.5.
+to start, read the document you want to learn in the list above.
 
-for example, lets say max coordinates is 50 by 50 by 50.
-
-```
-50+50+50=150, divided by 1.5, = 100 coins
-```
-
-to do this, you have to use the following command:
-
-```
-/newmap minX maxX minY maxY minZ maxZ tiletype
-```
-
-example:
-
-```
-/newmap house 0 50 0 50 0 50 grass.
-```
-
-make sure to type miny and maxy 0 If you want to make 2d.
-
-you can also type `/newmap` command with no parameters, in this case it will promt you the virtual dialog to create the map.
-
-you can open the builder menu by pressing b on your keyboard.
 
 ## further reading
 
-* [map related commands(../commands/map "read more about commands related to map building!")
+* [map related commands](../commands/map "read more about commands related to map building!")

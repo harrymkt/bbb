@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="harry min khant">
+<meta name="keywords" content="harry, min, khant, blind, social, visually impaired, computer, pc, mobile, android">
+<link href="/bbb/css/style.css" rel="stylesheet" type="text/css">
+<script src="/bbb/scripts/functions.js"></script>
+<script src="/bbb/scripts/all.js"></script>
+<script src="/bbb/scripts/nav.js"></script>
+<script src="/bbb/scripts/footer.js"></script>
+<script>sett("site config");</script>
+</head>
+<body>
+<script>navstart();</script>
+
+<h1 id="mainc">site config</h1>
+<h2>time format</h2>
+<p id="timeformat"></p>
+<form>
+<select id="timeformatinp" placeholder="choose time format" label="choose time format" required>
+<option checked="false" value="12">12 hour</option>
+<option checked="false" value="24">24 hour</option>
+</select>
+<input type="submit" onclick="formsub();" placeholder="submit"></input>
+</form>
+<script>
+var tf=localStorage.getItem("timeformat");
+if(tf!=="12") tf="24";
+document.getElementById("timeformat").textContent="current time format, "+tf+" hour format";
+function formsub()
+{
+var tf=document.getElementById("timeformatinp").value;
+if(tf!=="12") tf="24";
+localStorage.setItem("timeformat",tf);
+document.getElementById("timeformat").textContent="current time format, "+tf+" hour format";
+}
+addfooter();
+</script>
+</body>
+</html>

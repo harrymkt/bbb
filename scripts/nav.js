@@ -1,6 +1,10 @@
 function navstart()
 {
 // Create h1 element with id "accessibility"
+var confg=document.createElement("a");
+confg.href="/bbb/config";
+confg.textContent="config site";
+document.body.appendChild(confg);
 var h1Element = document.createElement("h1");
 h1Element.id = "accessibility";
 h1Element.textContent = "accessibility links";
@@ -117,11 +121,12 @@ month: "long",
 day: "numeric",
 year: "numeric"
 };
+const timeformat=localStorage.getItem("timeformat");
 const toptions = {
 hour: "numeric",
 minute: "numeric",
 second: "numeric",
-hour12: true
+hour12: (timeformat==="12"?true:false)
 };
 var ddate = dates.toLocaleDateString("EN-US", options) + ", " + dates.toLocaleTimeString("EN-US", toptions);
 document.getElementById("fulldate").textContent = ddate;
