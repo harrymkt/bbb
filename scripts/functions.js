@@ -62,10 +62,11 @@ output += ltext;
 
 return output;
 }
-function createLinkListItem(href, text) {
+function createLinkListItem(href, text, title="", target="_blank") {
 var listItem = document.createElement("li");
 var link = document.createElement("a");
-link.target = "_blank";
+if(target!=="") link.target = target;
+if(title!=="") link.title = title;
 link.href = href;
 link.textContent = text;
 listItem.appendChild(link);

@@ -16,11 +16,15 @@ var skipToNavigationLink = document.createElement("a");
 skipToNavigationLink.href = "#navigation";
 skipToNavigationLink.className = "skip-link";
 skipToNavigationLink.textContent = "skip to navigation";
-
+var skipToFooter = document.createElement("a");
+skipToFooter.href = "#footerelement";
+skipToFooter.className = "skip-link";
+skipToFooter.textContent = "skip to footer";
 // Append elements to the document body or any other target element
 document.body.appendChild(h1Element);
 document.body.appendChild(skipToMainContentLink);
 document.body.appendChild(skipToNavigationLink);
+document.body.appendChild(skipToFooter);
 // Create p element with id "fulldate"
 var fulldateElement = document.createElement("p");
 fulldateElement.id = "fulldate";

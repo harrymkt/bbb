@@ -4,6 +4,7 @@ function addfooter()
 // Assuming "fdd" is a reference to an existing DOM object
 var fdd = document.createElement("div");
 fdd.className = "beforefooter";
+fdd.id="footerelement";
 
 // "keep in touch with Me" section
 var keepInTouchHeading = document.createElement("h1");
@@ -38,11 +39,13 @@ var privacyPolicyLink = document.createElement("p");
 
 // Create anchor elements and set their attributes
 var aboutAnchor = document.createElement("a");
+aboutAnchor.title="learn more about build beyond boundaries!";
 aboutAnchor.href = ptype + "://" + domain + "/about";
 aboutAnchor.textContent = "about";
 aboutLink.appendChild(aboutAnchor);
 
 var contactAnchor = document.createElement("a");
+contactAnchor.title="contact us If you need anything!";
 contactAnchor.href = ptype + "://" + domain + "/contact";
 contactAnchor.textContent = "contact";
 contactLink.appendChild(contactAnchor);
@@ -73,6 +76,7 @@ var copyrightText = document.createTextNode("copyright \u00A9 " + birthyear + "-
 
 // Create an anchor element
 var anchorElement = document.createElement("a");
+anchorElement.title="learn more about its official developer!";
 anchorElement.href = ptype + "://" + maindomain;
 anchorElement.textContent = "harry min khant.";
 
