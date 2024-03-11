@@ -2,9 +2,7 @@
 
 * number **1** through **0** : use script key If the scripting is enabled.
 * **Grave**, **Dash**, **equals**, and **Backspace** : more scriptkeys.
-* **q** : turns left.
 * **w** : tells the location of the tracked object.
-* **e** : turns right.
 * **r** : sits / stands.
 * **y** : use say tts message.
 * **i** : opens your inventory. to see a list of shortcuts that can be used in inventory, [click here](../inventory)
