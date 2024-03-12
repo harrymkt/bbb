@@ -29,3 +29,6 @@ make sure to type miny and maxy 0 If you want to make 2d.
 you can also type `/newmap` command with no parameters, in this case it will promt you the virtual dialog to create the map.
 
 you can open the builder menu by pressing b on your keyboard.
+
+## further reading
+* [map related commands](../../commands/map)

@@ -1,9 +1,5 @@
 # build beyond boundaries / builder category
 
-# map
-* [creating a new map](newmap)
-
-# builder objects
 * [tile](tile)
 * [wall](wall)
 
@@ -28,4 +24,4 @@ to start, read the document you want to learn in the list above.
 
 ## further reading
 
-* [map related commands](../commands/map "read more about commands related to map building!")
+* [map related commands](../../commands/map "read more about commands related to map building!")

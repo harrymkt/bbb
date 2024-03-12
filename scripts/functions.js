@@ -62,11 +62,10 @@ output += ltext;
 
 return output;
 }
-function createLinkListItem(href, text, title="", target="_blank") {
+function createLinkListItem(href, text) {
 var listItem = document.createElement("li");
 var link = document.createElement("a");
-if(target!=="") link.target = target;
-if(title!=="") link.title = title;
+link.target = "_blank";
 link.href = href;
 link.textContent = text;
 listItem.appendChild(link);
@@ -87,4 +86,10 @@ return latestVersion;
 } catch (error) {
 return `Error fetching latest release: ${error}`;
 }
+}
+function get_storage(value, otherwise="undefined")
+{
+var n=localStorage.getItem(value);
+if(n==="" || n==="undefined" || n===null) n=otherwise;
+return n;
 }

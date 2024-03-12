@@ -40,23 +40,23 @@ var privacyPolicyLink = document.createElement("p");
 // Create anchor elements and set their attributes
 var aboutAnchor = document.createElement("a");
 aboutAnchor.title="learn more about build beyond boundaries!";
-aboutAnchor.href = ptype + "://" + domain + "/about";
+aboutAnchor.href = "/bbb/about";
 aboutAnchor.textContent = "about";
 aboutLink.appendChild(aboutAnchor);
 
 var contactAnchor = document.createElement("a");
 contactAnchor.title="contact us If you need anything!";
-contactAnchor.href = ptype + "://" + domain + "/contact";
+contactAnchor.href = "/bbb/contact";
 contactAnchor.textContent = "contact";
 contactLink.appendChild(contactAnchor);
 
 var privacyPolicyAnchor = document.createElement("a");
-privacyPolicyAnchor.href = ptype + "://" + domain + "/privacy";
+privacyPolicyAnchor.href = "/bbb/privacy";
 privacyPolicyAnchor.textContent = "privacy policy";
 privacyPolicyLink.appendChild(privacyPolicyAnchor);
 var dochelp = document.createElement("p");
 var dochelpAnchor = document.createElement("a");
-dochelpAnchor.href = ptype + "://" + domain + "/dochelp";
+dochelpAnchor.href = "/bbb/dochelp";
 dochelpAnchor.textContent = "How to contribute to bbb's documentation";
 dochelp.appendChild(dochelpAnchor);
 // Append paragraphs to the existing "fd" container
@@ -77,7 +77,7 @@ var copyrightText = document.createTextNode("copyright \u00A9 " + birthyear + "-
 // Create an anchor element
 var anchorElement = document.createElement("a");
 anchorElement.title="learn more about its official developer!";
-anchorElement.href = ptype + "://" + maindomain;
+anchorElement.href = "/";
 anchorElement.textContent = "harry min khant.";
 
 // Append the copyright text and anchor element to the paragraph

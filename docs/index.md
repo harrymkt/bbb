@@ -4,7 +4,7 @@
 * [general](general)
 * [shortcuts](shortcuts)
 * [commands](commands)
-* [builder building objects](builder)
+* [map and building objects](map)
 
 # description
 
