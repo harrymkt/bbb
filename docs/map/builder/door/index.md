@@ -5,6 +5,7 @@ a door is an object that moves the player to new coordinates.
 # `door:startX:startY:startZ:endX:endY:endZ:speed:door_loop_sound:door_move_sound:door_open_sound:door_close_sound:optional_password:optional_password_promt`
 
 ## parameters
+
 variable | description
 ---|---
 startX | the x coordinate of the door.
