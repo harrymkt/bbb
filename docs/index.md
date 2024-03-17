@@ -8,14 +8,15 @@
 
 # description
 
-build beyond boundaries is a map building game for visually impaired computer gamers. it is played using your keyboard.
-
-the game consists of many features for map building.
-
-the maps can also be added to challenge maps, or publish them in public maps menu so players can visit.
+this is the documentation for the build beyond boundaries. for more about the game, visit [about page](/bbb/about)
 
 updates can be found on [telegram channel](https://t.me/bbbharry "get news related to the game on telegram!")
 
 [official developer website](/ "learn more about the developer!")
 
 [discussion hub](https://github.com/harrymkt/bbb/discussions "solve your questions in the forum and get help whenever you need!")
+
+## contributing
+
+you can contribute the docs.
+learn more about it in the [document contribution help page](../dochelp)

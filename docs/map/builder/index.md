@@ -2,6 +2,7 @@
 
 * [tile](tile)
 * [wall](wall)
+* [door](door)
 
 # introduction to builder
 

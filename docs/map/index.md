@@ -1,6 +1,7 @@
 # build beyond boundaries / builder category
 
 * [creating a new map](newmap)
+* [deleting a map](delmap)
 
 # introduction to builder
 

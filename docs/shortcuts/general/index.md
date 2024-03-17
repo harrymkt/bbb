@@ -8,7 +8,7 @@ to learn more about scriptkeys and how it works, read [this page](../../general/
 * **w** : tells the location of the tracked object.
 * **r** : sits / stands.
 * **y** : use say tts message.
-* **i** : opens your inventory. to see a list of shortcuts that can be used in inventory, [click here](../inventory)
+* **i** : opens your inventory. to see a list of shortcuts that can be used in inventory, [click here](../inventory "learn more about inventory and its shortcuts!")
 * **alt+o** : opens in game settings menu.
 * **p** : checks who's around you.
 	* holding down with **shift** key will bring up the menu to track the player.
@@ -19,14 +19,19 @@ to learn more about scriptkeys and how it works, read [this page](../../general/
 	* combine with **shift** key will bring up the help menu commands that is available at the command `/help`.
 * **semicolon** : brings up the social menu depending on your gender.
 * **backslash** : opens public chat.
-* **enter** : activates map elements, like doors, signs, and travelpoints.
+* **enter** : activates map elements, like [doors](../../map/builder/door), signs, and travelpoints.
 * **x** : brings up a menu to track zones.
 * **c** : checks coordinates.
 	* combine with **alt** key will bring up the character menu.
 * **shift+v** : replys the message to the previous sender.
 * **b** : opens the builder menu.
+	* combine with **shift** key will open the map settings menu.
 * **n** : tells your current location, or another word, zone.
 * **comma** and **period** : moves between buffer items. combine with **shift** to perform top and bottom.
+* **home** : volume up master.
+	* combine with **shift** key will turn the music volume up.
+* **end** : volume down the master.
+	* combine with **shift** key will turn the music volume down.
 * **slash** : map chat, or commands.
 * **f1** : checks who's online.
 * **f2** : checks server's uptime.
