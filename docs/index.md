@@ -8,7 +8,7 @@
 
 # description
 
-this is the documentation for the build beyond boundaries. for more about the game, visit [about page](/bbb/about)
+this is the documentation for the build beyond boundaries. for more about the game, visit [about page](../about)
 
 updates can be found on [telegram channel](https://t.me/bbbharry "get news related to the game on telegram!")
 

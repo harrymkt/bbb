@@ -2,7 +2,7 @@
 
 these are commands that is related to map, including contribution and building commands.
 
-for a complete help of the specific map building object, refer to [builder guide](../../builder "learn more about specific building objects in map!")
+for a complete help of the specific map building , refer to [builder guide](../../map "learn more about specific building objects in map!")
 
 command | description | example
 ---|---|---

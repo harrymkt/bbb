@@ -14,7 +14,7 @@ startZ | the Z coordinate of the door.
 endX | the x coordinate to move the player to.
 endY | the y coordinate to move the player to.
 endZ | the z coordinate to move the player to.
-speed | the speed in which the door should move, in milliseconds. 1000=1second
+speed | the speed in which the door should move, in milliseconds. 1000=1second. -1 is instant.
 door_loop_sound | the sound that should play as looped to indicate the door's there. you can use none.ogg for no sound.
 door_move_sound | the sound that will play while the door is moving. you can use none.ogg for no sound.
 door_open_sound | the sound that will play when the door is opened. you can use none.ogg for no sound.

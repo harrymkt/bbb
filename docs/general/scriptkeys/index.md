@@ -4,7 +4,16 @@ the scriptkeys is a feature that you can use your favorite command or your favor
 
 to use the script keys, you have to put your commands in the `scriptkeys.txt`, and you can start using them.
 
-first, turn on the scripting by pressing the alt+f2. after that, you can use the following keys:
+an example of commands is as follows:
+
+```
+/mi
+/contributors
+```
+
+
+first, turn on the scripting by pressing the `alt+f2`. after that, you can use the following keys:
 
 * `grave` : the grave key is located to the left of number 1.
 * number 1 through 0.
+* `dash`, `equals`, and `backspace` : more scriptkeys.

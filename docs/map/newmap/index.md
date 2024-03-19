@@ -31,4 +31,5 @@ you can also type `/newmap` command with no parameters, in this case it will pro
 you can open the builder menu by pressing b on your keyboard.
 
 ## further reading
+
 * [map related commands](../../commands/map)
