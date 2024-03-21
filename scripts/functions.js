@@ -5,6 +5,31 @@ var age_dt = new Date(diff_ms);
 
 return Math.abs(age_dt.getUTCFullYear() - 1970);
 }
+function toggle_hidden(document_id, expanded_text, collapsed_text, button_id, aria)
+{
+if(document.getElementById(document_id).hidden==true)
+{
+document.getElementById(document_id).hidden=false;
+document.getElementById(aria).innerHTML=expanded_text;
+if(button_id!="")
+{
+document.getElementById(button_id).innerHTML=expanded_text;
+}//button_id
+}//hidden
+else if(document.getElementById(document_id).hidden==false)
+{
+document.getElementById(document_id).hidden=true;
+document.getElementById(aria).innerHTML=collapsed_text;
+if(button_id!="")
+{
+document.getElementById(button_id).innerHTML=collapsed_text;
+}//button_id
+}//hidden false.
+else
+{
+document.getElementById(aria).innerHTML="error";
+}//error
+}//end
 function ts_to_readable_time(timestamp, showsecond = false, ltext = '') {
 var seconds = Math.floor(Date.now() / 1000) - timestamp;
 var minutes = Math.floor(seconds / 60);

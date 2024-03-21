@@ -1,37 +1,44 @@
-.skip-link {
-  position: absolute;
-  left: -9999px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  z-index: -1;
+.skip-link
+{
+position: absolute;
+left: -9999px;
+top: auto;
+width: 1px;
+height: 1px;
+overflow: hidden;
+z-index: -1;
 }
 
-.skip-link:focus {
-  position: static;
-  width: auto;
-  height: auto;
-  overflow: visible;
-  z-index: 1;
+.skip-link:focus
+{
+position: static;
+width: auto;
+height: auto;
+overflow: visible;
+z-index: 1;
 }
 
-body {
-  background-color: #fff; /* white */
+body
+{
+background-color: #fff; /* white */
+width: auto;
+height: auto;
 }
 #mainc
 {
 background-color: blue;
-  width: 150px;
-  height: 150px;
+width: auto;
+height: auto;
 }
 footer
 {
 color: white;
-  width: 250px;
-  height: 250px;
+width: 250px;
+height: 250px;
 }
 .beforefooter
 {
 color: blue;
+width: auto;
+height: auto;
 }
